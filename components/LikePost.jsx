@@ -1,9 +1,9 @@
-import sleep from "@/lib/sleep";
+import sleep from "/lib/sleep";
 
 const LikePost = () => {
   const likePost = async () => {
     // Faking a long API request here
-    await sleep(3000);
+    await sleep(3000);  // Simulating network request
     console.log('Liked blog post');
   };
 
@@ -16,4 +16,4 @@ const LikePost = () => {
   )
 }
 
-export default LikePost
+export default LikePost;
