@@ -12,7 +12,7 @@ export default function Home({ posts }) {
         posts.map(post => (
           <article key={post.id}>
             <h2>{post.title}</h2>
-            <p>Author: {post.author}</p>
+            <h3>Author: {post.author}</h3>
             <div dangerouslySetInnerHTML={{ __html: post.description }} />
             <LikePost />
           </article>
