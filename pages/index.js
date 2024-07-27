@@ -28,7 +28,7 @@ export default function Home({ posts }) {
 
 export async function getServerSideProps() {
   try {
-    const res = await fetch('http://localhost:3000/api/getBlogPosts', {
+    const res = await fetch('https://interview-project-nextjs.vercel.app/api/getBlogPosts', {
       headers: {
         'X-Auth': 'secret123'
       }
