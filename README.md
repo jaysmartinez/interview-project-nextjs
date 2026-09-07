@@ -1,4 +1,4 @@
-# Next.js/React Coding Project
+# Next.js Secure Blog
 
 ## Purpose
 
